@@ -420,7 +420,7 @@ footer ul {
 }
 
 
-/* @media screen and (max-width:770px){
+@media screen and (min-width:900px){
     header {
         padding: 5px 180px;
     }
@@ -474,4 +474,4 @@ footer ul {
     .ft-nav-1 li a, .ft-nav-2 li a {
         font-size: 15px;
     }
-} */
+}

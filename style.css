@@ -260,21 +260,20 @@ footer ul {
     header {
         padding: 30px 40px;
     }
-    header .navigation {
+    .navigation {
         position: absolute;
         top: 100px;
-        left: 50%;
-        transform: translateX(-50%);
         display: flex;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
         background: #fff;
-        width: 70%;
+        width: 80%;
         margin: auto;
         padding: 40px;
         border-radius: 10px;
         text-align: center;
-        visibility: hidden;
+        opacity: 0;
         transition: all .5s ease-in-out;
     }
 
@@ -293,7 +292,7 @@ footer ul {
     }
 
     .active {
-        visibility: visible;
+        opacity: 1;
     }
     
     .dropdown-toggle {
@@ -320,7 +319,7 @@ footer ul {
     }
 
     .brief_details h1 {
-        width: 90%;
+        width: 95%;
     }
 
     .brief_details span {

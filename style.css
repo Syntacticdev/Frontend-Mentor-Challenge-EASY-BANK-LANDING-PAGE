@@ -20,6 +20,7 @@
 body {
     position: relative;
     overflow-x:hidden ;
+    width: 100vw;
     font-family: 'Public Sans', sans-serif;
 }
 
@@ -149,9 +150,9 @@ span, p {
 }
 
 .reason .why_list {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 3.2em;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
 }
 
 .why_list > div img {
@@ -173,13 +174,12 @@ span, p {
 }
 
 .articles {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 2em;
+    display:flex;
+    justify-content: space-between;
+    gap: 1em;
 }
 
 .articles .article_card {
-    width: 250px;
     background: var(--white);
     border-radius: 10px;
     overflow: hidden;
@@ -259,7 +259,6 @@ footer ul {
 @media screen and (max-width: 765px){
     header {
         padding: 30px 40px;
-        position: relative;
     }
     .navigation {
         position: absolute;
@@ -348,12 +347,11 @@ footer ul {
 
     .reason {
         padding: 40px;
+        width: 100vw;
     }
 
     .reason .why_list {
-        grid-template-columns: 1fr;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
     }
 
     .reason  div {

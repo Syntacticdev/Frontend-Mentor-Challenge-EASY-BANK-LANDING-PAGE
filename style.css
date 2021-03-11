@@ -370,7 +370,7 @@ footer ul {
     }
 
     .articles {
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
 
     .articles .article_card {

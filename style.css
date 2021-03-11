@@ -123,6 +123,7 @@ span, p {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .mockup-img {
@@ -419,7 +420,7 @@ footer ul {
 }
 
 
-@media screen and (min-width:1540px){
+@media screen and (min-width:820px){
     header {
         padding: 5px 180px;
     }

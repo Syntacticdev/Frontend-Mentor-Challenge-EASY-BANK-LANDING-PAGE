@@ -30,7 +30,7 @@ a {
 
 header {
     background-color: var(--white);
-    padding: 5px 120px;
+    padding: 5px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,6 +85,7 @@ span, p {
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow-x: hidden;
 }
 
 .brief_details {
@@ -132,7 +133,7 @@ span, p {
 
 .reason {
     background-color: var(--lightGrayishBlue);
-    padding: 100px 140px;
+    padding: 100px 50px;
 }
 .benefit {
     position: relative;
@@ -164,7 +165,7 @@ span, p {
 }
 
 .latest-articles {
-    padding: 100px 140px;
+    padding: 100px 50px;
     background: var(--veryLightGray);
 }
 
@@ -208,7 +209,7 @@ footer {
     background-color: hsl(233, 26%, 24%);
     display: flex;
     justify-content: space-between;
-    padding: 10px 140px;
+    padding: 10px 50px;
 }
 .ft-one {
     display: flex;

@@ -417,3 +417,60 @@ footer ul {
         font-size: 20px;
     }
 }
+
+
+@media screen and (min-width:1540px){
+    header {
+        padding: 5px 180px;
+    }
+    .navigation li a {
+        font-size: 15px;
+    }
+
+    .reason {
+        padding: 100px 180px;
+    }
+
+    .benefit {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .latest-articles {
+        padding: 100px 180px;
+    }
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 8em;
+    }
+
+    .article_card {
+        width: 100%;
+    }
+
+    .card_body {
+        padding-bottom: 40px;
+    }
+
+    .reason .why_list {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    footer {
+        padding: 10px 180px;
+    }
+
+    .ft-one {
+        flex-basis: 65%;
+    }
+
+    .ft-two h4 {
+        font-size: 10px;
+    }
+
+    .ft-nav-1 li a, .ft-nav-2 li a {
+        font-size: 15px;
+    }
+}

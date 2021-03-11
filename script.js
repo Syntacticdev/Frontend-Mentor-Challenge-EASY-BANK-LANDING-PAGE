@@ -8,3 +8,7 @@ toggle_btn.addEventListener('click',()=>{
         navigation.classList.add('active')
     }
 })
+
+
+document.querySelector('.height').innerHTML = window.innerWidth
+
